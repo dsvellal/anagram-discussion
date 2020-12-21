@@ -1,4 +1,4 @@
-Feature: Check if a word or a phrase is an anagram of the subject word or phrase.
+Feature: Check if the candidate word or a phrase is an anagram of the subject word or phrase.
 
   Scenario Outline: Successfully identify anagrams and non-anagrams in both-directions
     When I ask if the word or phrase "<candidate>" is an anagram of the word or phrase "<subject>"
